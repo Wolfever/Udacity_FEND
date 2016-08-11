@@ -1,0 +1,14 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#4e3c91" id="canvas_background" height="602" width="602" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="227" rx="227" id="svg_1" cy="300" cx="299" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#9a8ec9"/>
+  <ellipse ry="165" rx="165" id="svg_3" cy="300" cx="295" stroke-width="0" stroke="#000" fill="#4e3c91"/>
+  <text stroke="#000" transform="matrix(7.846100807189941,0,0,7.836753908067578,-1557.4879336357117,-1699.1987333626323) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_4" y="300" x="300" stroke-width="0" fill="#9a8ec9">W</text>
+  <text font-weight="bold" stroke="#000" transform="rotate(6 292.0466918945309,280.5876770019531) matrix(14.691159418847304,0,0,17.628036656651705,-3637.953224562017,-4957.280439324577) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_5" y="303.5" x="260.316818" stroke-width="0" fill="#9a8ec9">w</text>
+ </g>
+</svg>
