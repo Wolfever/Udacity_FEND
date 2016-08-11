@@ -1,0 +1,251 @@
+/* Created on August 6th for Udacity FEND course 
+	Wolf
+*/
+
+/* Resetting */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*For layout */
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 100px;
+    padding: 0 20px;
+}
+
+.logo {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.top_title {
+	text-align: right;
+	margin: 5px 0 10px 0;
+}
+
+.main_figure {
+    width: 100%;
+    position: relative;
+    background-image: url("../img/codingpic2.png");
+    background-size: cover;
+    height: 400px;
+    border-bottom: 1px solid;
+}
+
+.subtitle {
+	min-width: 100%;
+	padding: 5px 20px;
+	margin: 15px auto;
+}
+
+.project {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	padding: 0 5px;
+}
+
+.Project-Category {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.project_img {
+	border: 1px solid;
+	width: 80%;
+	max-width: 300px;
+	object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+.footer {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 0 20px 20px 20px;
+}
+
+.update-info {
+	align-self: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 1.5em;
+	}
+
+	.top_title h3 {
+		font-size: 1em;
+	}
+
+	.footer {
+		display: block;
+	}
+
+	.main_figure {
+		height: 200px;
+	}
+
+	h2,
+	h3 {
+		margin: 10px 0 10px auto;
+	}
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+
+	.project {
+		width: calc((100% - 20px)/2);
+		margin-right: 20px;
+	}
+
+	.project:nth-of-type(even){
+		margin-right: 0;
+	}
+	
+
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+	
+	.project {
+		display: flex;
+		width: 100%;
+	}
+		
+	.wrapper {
+		margin-left: 20px;
+		text-align: left;
+	}
+
+	.main_figure {
+		height: 100px;
+	}
+
+	h2,
+	h3 {
+		margin: 10px 0 10px auto;
+	}
+
+	.project_img {
+		width: 60%;
+		height: 60%;
+	}
+}
+
+@media screen and (min-width: 901px) and (max-width: 1199px) {
+	
+	.project {
+		width: calc((100% - 40px)/3);
+		margin-right: 20px;
+	}
+
+	.project:nth-of-type(3n+0){
+		margin-right: 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	
+	.main {
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	.project {
+		width: calc((100% - 40px)/3);
+		margin-right: 20px;
+	}
+
+	.project:nth-of-type(3n+0){
+		margin-right: 0;
+	}
+
+	.header,
+	.footer {
+		padding: 0 calc((100% - 1160px)/2);
+	}
+	
+}
+
+span {
+	display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+/*For colors */
+
+h3 {	
+	color: #38267c;
+}
+
+h2 {
+	color: #241362;
+}
+
+.header,
+.footer,
+.top_title {
+	background-color: #4e3c91;
+	color: #9688c8;
+}
+
+.subtitle {
+	background-color: #9A8EC9;
+}
+
+a {
+	color: #9688c8;
+	font-style: normal;
+	text-decoration: none;
+} 
+
+/*Fonts*/
+
+h3 {
+	font-size: 1.5em;
+}
+
+p,
+h1,
+h2,
+h3,
+h4
+{
+	font-family: Arial, Verdana, "微软雅黑", "Microsoft Yahei", "黑体", SimHei, sans-serif;
+}
+
+.address {
+	font-style: normal;
+}
